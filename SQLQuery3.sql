@@ -36,3 +36,9 @@ update Address_Book_Table set First_Name='Suresh' where City='Pune'
 
 select * from Address_Book_Table
 delete from Address_Book_Table where First_Name='Param'
+
+			UC6
+
+select * from Address_Book_Table where City='Mumbai'
+select * from Address_Book_Table where State='Karnataka'
+
