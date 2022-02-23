@@ -19,3 +19,12 @@ Email varchar(200)
 
 )
 select * from Address_Book_Table
+
+	 UC3
+
+insert into Address_Book_Table values
+('Rakesh','Koli','Pune','Pune','Maharashtra',411028,8562349805,'rakeshkoli@gmail.com'),
+('Vikas','Lohar','Mumbai','Mumbai','Maharashtra',230532,6984203046,'lohar.vikas@hotmail.com'),
+('Rohit','Sahu','Mysuru','Mysuru','Karnataka',570001,8906507531,'Rsahu95@gmail.com'),
+('Param','Kumar','Dehradun','Haridwar','Uttarakhand',249717,9604203576,'kumarp@yahoo.com')
+
