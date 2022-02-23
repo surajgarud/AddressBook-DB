@@ -31,3 +31,8 @@ insert into Address_Book_Table values
      	UC4
 select * from Address_Book_Table
 update Address_Book_Table set First_Name='Suresh' where City='Pune'
+
+		UC5
+
+select * from Address_Book_Table
+delete from Address_Book_Table where First_Name='Param'
