@@ -28,3 +28,6 @@ insert into Address_Book_Table values
 ('Rohit','Sahu','Mysuru','Mysuru','Karnataka',570001,8906507531,'Rsahu95@gmail.com'),
 ('Param','Kumar','Dehradun','Haridwar','Uttarakhand',249717,9604203576,'kumarp@yahoo.com')
 
+     	UC4
+select * from Address_Book_Table
+update Address_Book_Table set First_Name='Suresh' where City='Pune'
