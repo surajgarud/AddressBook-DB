@@ -58,3 +58,7 @@ update Address_Book_Table set Type='Family' where First_Name='Suresh'
 update Address_Book_Table set Type='Friends' where First_Name='Vikas'
 update Address_Book_Table set Type='Profession' where First_Name='Rohit'
 
+
+		UC10
+
+Select count(*) from Address_Book_Table where type='Family'
