@@ -49,3 +49,12 @@ Select count(*) from Address_Book_Table where State='Maharashtra'
 		UC8
 
 select * from Address_Book_Table where state='Maharashtra' order by First_Name 
+
+		UC9
+
+alter table Address_book_Table Add
+Type varchar(50)
+update Address_Book_Table set Type='Family' where First_Name='Suresh'
+update Address_Book_Table set Type='Friends' where First_Name='Vikas'
+update Address_Book_Table set Type='Profession' where First_Name='Rohit'
+
