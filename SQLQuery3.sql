@@ -45,3 +45,7 @@ select * from Address_Book_Table where State='Karnataka'
 		UC7
 select * from Address_Book_Table
 Select count(*) from Address_Book_Table where State='Maharashtra'
+
+		UC8
+
+select * from Address_Book_Table where state='Maharashtra' order by First_Name 
