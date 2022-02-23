@@ -42,3 +42,6 @@ delete from Address_Book_Table where First_Name='Param'
 select * from Address_Book_Table where City='Mumbai'
 select * from Address_Book_Table where State='Karnataka'
 
+		UC7
+select * from Address_Book_Table
+Select count(*) from Address_Book_Table where State='Maharashtra'
